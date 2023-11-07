@@ -1,6 +1,6 @@
 # EECS210-Assignment06
 ## What is it?
-It is a program that can recursively solve 9x9 Sudoku problems.
+It is a Python program that can recursively solve 9x9 Sudoku problems.
 
 ## Inputs
 A text file with a 9x9 Sudoku board. 
