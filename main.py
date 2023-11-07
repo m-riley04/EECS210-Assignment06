@@ -1,17 +1,15 @@
 
 ## Name:                EECS 210 Assignment 6
-## Description:         A program that can solve Sudoku problems and tell you if they are unsolvable.
+## Description:         A program that can recursively solve Sudoku problem.
 ## Author:              Riley Meyerkorth
 ## Collaborators:       N/A
 ## Sources:             N/A
 ## Inputs:              N/A
-## Outputs:             Prints out whether it was able to solve the Sudoku puzzle or not. If not, it prints it's proof.
+## Outputs:             Prints out the puzzle file name, the puzzle itself, and the solution to the puzzle. If it cannot find a solution, state so.
 ## Creation date:       2023 November 6
 ## Modification Date:   2023 November 6
 
 class Solver:
-    # TODO: Implement proof of unsolvable problems
-    
     def solve(self, puzzle:list[list]):
         """Solves a given Sudoku problem"""
         # If the recursive function does not return anything, it means that no solution was found.
